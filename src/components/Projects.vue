@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div>
     <section class="section">
       <div>
@@ -71,6 +71,7 @@
   flex-shrink: 0;
   background: #f5f5f5;
 
+
   div {
     margin: 69px 250px 69px 250px;
     h2 {
@@ -91,6 +92,10 @@
     ul {
       list-style-type: none;
       display: flex;
+
+      :hover{
+          box-shadow: 5px 5px 5px 5px ;
+        }
       li {
         // margin: 119px 20px 20px 250px;
         // border:1px solid green;
@@ -98,8 +103,12 @@
         padding: 15px;
         // background-color: red;
         background: #FFF;
+        margin:0px 10px 10px 0px;
         :hover{
-          box-shadow: 5px 5px;
+          box-shadow: 5px 5px 5px 5px ;
+        }
+        :hover{
+          box-shadow: 5px 5px 5px 5px ;
         }
         img {
           width: 300px;

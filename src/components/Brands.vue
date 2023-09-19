@@ -1,33 +1,35 @@
 <template>
   <div>
-    <section class="section ">
-      <h2>How we make brands thrive</h2>
-      <ul>
-        <li>
-          <img src="../assets/img/image4.png" alt="" />
-          <p class="p">SET a target</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-            repellendus aperiam vel possimus aspernatur illo?
-          </p>
-        </li>
-        <li>
-          <img src="../assets/img/image2.png" alt="" />
-          <p class="p">SET a target</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-            repellendus aperiam vel possimus aspernatur illo?
-          </p>
-        </li>
-        <li>
-          <img src="../assets/img/image3.png" alt="" />
-          <p class="p">SET a target</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-            repellendus aperiam vel possimus aspernatur illo?
-          </p>
-        </li>
-      </ul>
+    <section class="section">
+      <div class="container">
+        <h2>How we make brands thrive</h2>
+        <ul>
+          <li>
+            <img src="../assets/img/image4.png" alt="" />
+            <p class="p">SET a target</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              repellendus aperiam vel possimus aspernatur illo?
+            </p>
+          </li>
+          <li>
+            <img src="../assets/img/image2.png" alt="" />
+            <p class="p">SET a target</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              repellendus aperiam vel possimus aspernatur illo?
+            </p>
+          </li>
+          <li>
+            <img src="../assets/img/image3.png" alt="" />
+            <p class="p">SET a target</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              repellendus aperiam vel possimus aspernatur illo?
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
     <div></div>
   </div>
@@ -41,11 +43,19 @@ div {
   background-color: antiquewhite;
   width: 1440px;
   max-width: 1800px;
+  height: 570px;
 
   .section {
     margin: 0px 0px 0px 200px;
     // background-color: red;
     width: 1080px;
+    
+  .container {
+    max-width: 100%;
+    width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+
     h2 {
       width: 394px;
       color: #333;
@@ -56,7 +66,7 @@ div {
       font-weight: 400;
       line-height: 36px;
       text-transform: uppercase;
-      margin: 10px 273px 73px 273px;
+      margin: 10px 273px 13px 273px;
       border: 2px solid black;
     }
     ul {
@@ -65,7 +75,7 @@ div {
       // align-items: center;
       // justify-content: space-between;
       li {
-        margin:73px 10px 38px 10px;
+        margin: 73px 10px 38px 10px;
         img {
           padding: 50px 86px 50px 87px;
           width: 300px;
@@ -87,7 +97,7 @@ div {
           text-transform: uppercase;
         }
         p {
-          margin: 20px 12px 5px 11px;
+          margin: 20px 12px 0px 11px;
           width: 297px;
           color: #333;
           text-align: center;
@@ -100,5 +110,6 @@ div {
       }
     }
   }
+}
 }
 </style>

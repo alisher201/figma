@@ -1,6 +1,7 @@
 <template >
   <div>
     <section>
+
       <img src="../assets/img/image1.png" alt="" />
       <div class="wrapper">
         <p>
@@ -32,10 +33,10 @@ img {
 
 
 .wrapper {
-  width: 1440px;
-  height: 289px;
-  position: relative;
-  //   flex-shrink: 0;
+  // width: 1440px;
+  height: 300px;
+  // position: relative;
+  // //   flex-shrink: 0;
   background-color: #fefec9;
   p {
     width: 70%;

@@ -62,11 +62,11 @@
   flex-shrink: 0;
   background: #fff;
 
-  .container {
-    max-width: 100%;
-    width: 1000px;
-    padding: 0 20px;
-    margin: 0 auto;
+    .container {
+      max-width: 100%;
+      width: 1000px;
+      padding: 0 20px;
+      margin: 0 auto;
 
     h2 {
       width: 129px;
@@ -93,9 +93,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+      :hover{
+          box-shadow: 5px 5px 5px 5px ;
+        }
       li {
         gap: 90px;
+        padding:10px;
         .img {
           width: 220px;
           height: 220px;
@@ -118,7 +121,7 @@
         div {
           width: 150px;
           display: flex;
-          background-color: red;
+          // background-color: red;
           margin-left: 30px;
           align-items: center;
           // justify-content:center
